@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "./*.d.ts"
+  ],
+  "files": [
+    "./callback_api.d.ts",
+    "./index.d.ts",
+    "./properties.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}

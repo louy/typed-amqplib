@@ -1,0 +1,13 @@
+{
+  "name": "amqplib",
+  "main": "index.d.ts",
+  "version": false,
+  "dependencies": {},
+  "ambientDependencies": {
+    "node": "registry:dt/node#4.0.0+20160330064709",
+    "when": "registry:dt/when#2.4.0+20160317120654"
+  },
+  "devDependencies": {
+    "amqplib": "file:./typings.json"
+  }
+}
