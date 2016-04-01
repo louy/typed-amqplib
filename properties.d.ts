@@ -1,5 +1,3 @@
-/// <reference path="./typings/main/ambient/node/index.d.ts" />
-
 export namespace Replies {
     interface Empty {
     }

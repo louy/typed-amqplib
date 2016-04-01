@@ -1,6 +1,3 @@
-/// <reference path="./typings/main/ambient/node/index.d.ts" />
-/// <reference path="./typings/main/ambient/when/index.d.ts" />
-
 import events = require("events");
 import when = require("when");
 import shared = require("./properties");

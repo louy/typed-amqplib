@@ -3,4 +3,5 @@ language: node_js
 script:
   - npm i -g typescript typings
   - typings install
+  - typings bundle --out test
   - tsc -p test

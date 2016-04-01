@@ -4,7 +4,7 @@
     "module": "commonjs"
   },
   "files": [
-    "../typings/main.d.ts",
+    "./main.d.ts",
     "./index.ts"
   ]
 }

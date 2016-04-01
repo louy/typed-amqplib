@@ -3,3 +3,6 @@ typings/
 *.log
 *.js
 *.map
+
+test/main.d.ts
+test/browser.d.ts
