@@ -1,6 +1,6 @@
 {
   "name": "amqplib",
-  "main": "index.d.ts",
+  "main": "channel_api.d.ts",
   "version": false,
   "dependencies": {},
   "ambientDependencies": {

@@ -10,7 +10,7 @@
   "files": [
     "typings/main.d.ts",
     "./callback_api.d.ts",
-    "./index.d.ts",
+    "./channel_api.d.ts",
     "./properties.d.ts"
   ],
   "atom": {
