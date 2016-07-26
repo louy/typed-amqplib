@@ -2,9 +2,10 @@
   "name": "amqplib",
   "main": "channel_api.d.ts",
   "version": false,
-  "dependencies": {},
-  "ambientDependencies": {
-    "node": "registry:dt/node#4.0.0+20160330064709",
-    "when": "registry:dt/when#2.4.0+20160317120654"
+  "dependencies": {
+    "when": "registry:npm/when#2.4.0+20160723033700"
+  },
+  "globalDependencies": {
+    "node": "registry:env/node#6.0.0+20160723033700"
   }
 }

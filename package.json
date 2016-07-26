@@ -1,0 +1,17 @@
+{
+  "name": "typed-amqplib",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  },
+  "scripts": {
+    "postinstall": "typings install && typings prune"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louy/typed-amqplib.git"
+  },
+  "license": "ISC"
+}
