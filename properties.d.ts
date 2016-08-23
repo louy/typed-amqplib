@@ -47,7 +47,7 @@ export namespace Options {
         ifUnused?: boolean;
     }
     interface Publish {
-        expiration?: string;
+        expiration?: string | number;
         userId?: string;
         CC?: string | string[];
 
