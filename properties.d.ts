@@ -31,6 +31,7 @@ export namespace Options {
         deadLetterExchange?: string;
         deadLetterRoutingKey?: string;
         maxLength?: number;
+        maxPriority?: number;
     }
     interface DeleteQueue {
         ifUnused?: boolean;
