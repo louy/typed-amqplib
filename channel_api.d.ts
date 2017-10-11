@@ -10,7 +10,7 @@ export import Message = shared.Message;
 export interface Connection extends events.EventEmitter {
     close(): when.Promise<void>;
     createChannel(): when.Promise<Channel>;
-    createConfirmChannel(): when.Promise<Channel>;
+    createConfirmChannel(): when.Promise<ConfirmChannel>;
 }
 
 export interface Channel extends events.EventEmitter {
@@ -50,6 +50,13 @@ export interface Channel extends events.EventEmitter {
 
     prefetch(count: number, global?: boolean): when.Promise<Replies.Empty>;
     recover(): when.Promise<Replies.Empty>;
+}
+
+export interface ConfirmChannel extends Channel {
+    publish(exchange:string, routingKey:string, content:Buffer, options?:Options.Publish, callback?:(err:any, ok:Replies.Empty) => void):boolean;
+    sendToQueue(queue:string, content:Buffer, options?:Options.Publish, callback?:(err:any, ok:Replies.Empty) => void):boolean;
+
+    waitForConfirms(): when.Promise<void>;
 }
 
 export function connect(url: string, socketOptions?: any): when.Promise<Connection>;
