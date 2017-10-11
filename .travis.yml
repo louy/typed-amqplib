@@ -3,7 +3,5 @@ node_js:
   - 8
 
 script:
-  - npm i -g typescript typings
-  - typings install
-  - typings bundle --out test/main.d.ts
-  - tsc -p test
+  - npm run build
+  - npm run test
